@@ -1,14 +1,78 @@
-<svg width="600" height="64" viewBox="0 0 600 64" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="600" height="64" rx="12" fill="#0f0f0f"/>
-  <text
-    x="300"
-    y="32"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    font-size="18"
-    fill="#ff2a2a"
-    font-family="JetBrains Mono, monospace">
-    ひと足先に大人になっちゃったわ
+<svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="600" height="80" rx="12" fill="#0f0f0f"/>
+
+  <!-- subtle noise lines -->
+  <g opacity="0.08" stroke="#ffffff">
+    <line x1="0" y1="20" x2="600" y2="20"/>
+    <line x1="0" y1="40" x2="600" y2="40"/>
+    <line x1="0" y1="60" x2="600" y2="60"/>
+  </g>
+
+  <!-- main text with glitch jitter -->
+  <g>
+    <text x="300" y="38"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          font-size="18"
+          fill="#ff2a2a"
+          font-family="JetBrains Mono, monospace">
+      あんたバカぁ？
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; -1 0; 1 0; 0 0"
+        dur="0.18s"
+        repeatCount="indefinite"/>
+      <animate
+        attributeName="opacity"
+        values="1;0.6;1"
+        dur="1.1s"
+        repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- glitch shadow layer -->
+  <text x="302" y="40"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-size="18"
+        fill="#ffb300"
+        opacity="0.35"
+        font-family="JetBrains Mono, monospace">
+    あんたバカぁ？
+    <animate attributeName="opacity"
+             values="0;0.35;0"
+             dur="0.22s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <!-- worldline badge -->
+  <g>
+    <rect x="14" y="10" rx="6" ry="6" width="150" height="24" fill="#ff2a2a">
+      <animate attributeName="opacity"
+               values="1;0.3;1"
+               dur="1.4s"
+               repeatCount="indefinite"/>
+    </rect>
+    <text x="89" y="27"
+          text-anchor="middle"
+          font-size="12"
+          fill="#000000"
+          font-family="JetBrains Mono, monospace">
+      WORLDLINE: #027
+    </text>
+  </g>
+
+  <!-- error blink -->
+  <text x="586" y="68"
+        text-anchor="end"
+        font-size="10"
+        fill="#ff2a2a"
+        font-family="JetBrains Mono, monospace">
+    ERROR
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="0.8s"
+             repeatCount="indefinite"/>
   </text>
 </svg>
-
