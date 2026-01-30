@@ -1,0 +1,27 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="600" height="120" rx="16" fill="#000000"/>
+
+  <text
+    x="300"
+    y="44"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-size="28"
+    letter-spacing="1.5"
+    fill="#ffb300"
+    font-family="'Playfair Display SC', 'Cinzel', serif">
+    Danke
+  </text>
+
+  <text
+    x="300"
+    y="84"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-size="16"
+    letter-spacing="1.2"
+    fill="#ff2a2a"
+    font-family="'Noto Serif JP', serif">
+    下一个提交别让我失望 Dummkopf!
+  </text>
+</svg>
