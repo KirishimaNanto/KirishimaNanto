@@ -1,41 +1,6 @@
 <p align="center">
-  <img src="./assets/asuka-persona.svg" />
+  <img src="./assets/asuka-persona.svg" alt="ASUKA Persona Card" />
 </p>
-
-<!-- ===================== ASUKA PERSONA HEADER ===================== -->
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="180">
-  <defs>
-    <linearGradient id="asukaRed" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF2A2A"/>
-      <stop offset="50%" stop-color="#FF6A00"/>
-      <stop offset="100%" stop-color="#FF2A2A"/>
-    </linearGradient>
-  </defs>
-
-  <rect x="0" y="0" width="1200" height="180" rx="18" fill="#1A0B0B"/>
-  <path d="M0 90 Q150 40 300 90 T600 90 T900 90 T1200 90"
-        stroke="url(#asukaRed)"
-        stroke-width="4"
-        fill="none"
-        stroke-linecap="round"/>
-
-  <text x="600" y="85"
-        text-anchor="middle"
-        font-size="28"
-        fill="#FF6A00"
-        font-family="monospace">
-    異世界転生したらアスカに飼われてた
-  </text>
-
-  <text x="600" y="120"
-        text-anchor="middle"
-        font-size="14"
-        fill="#FF9E80"
-        font-family="monospace">
-    ASUKA Persona · Aggressive Engineering Mode
-  </text>
-</svg>
 
 ---
 
@@ -85,5 +50,4 @@ Anime-style personal schedule assistant
 ---
 
 ## 🧰 Tech Stack
-
 
