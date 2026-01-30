@@ -15,7 +15,7 @@
         font-size="30"
         fill="#ff2a2a"
         font-family="'Noto Serif JP', serif">
-    你好，我转生了。
+    我转生了
   </text>
 
   <text x="430" y="96"
@@ -23,7 +23,7 @@
         font-size="16"
         fill="#d0d0d0"
         font-family="JetBrains Mono, monospace">
-    原因不明，过程不重要
+    原因不明，但这不重要
   </text>
 
   <text x="430" y="122"
