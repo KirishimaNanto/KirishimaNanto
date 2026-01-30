@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420"
+     viewBox="0 0 1200 420">
+
+  <defs>
+    <!-- MIO BACKGROUND -->
+    <linearGradient id="mioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BEE7E8"/>
+      <stop offset="100%" stop-color="#F8BBD0"/>
+    </linearGradient>
+
+    <!-- MIO WAVE -->
+    <linearGradient id="mioWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="50%" stop-color="#F48FB1"/>
+      <stop offset="100%" stop-color="#81D4FA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- CARD -->
+  <rect x="20" y="20" rx="28" ry="28"
+        width="1160" height="380"
+        fill="url(#mioBg)"/>
+
+  <!-- TITLE -->
+  <text x="600" y="90"
+        text-anchor="middle"
+        font-size="32"
+        fill="#37474F"
+        font-family="serif">
+    月城 澪 · Mio Persona
+  </text>
+
+  <text x="600" y="125"
+        text-anchor="middle"
+        font-size="16"
+        fill="#607D8B">
+    Gentle Scheduler · Companion AI
+  </text>
+
+  <!-- INFO -->
+  <text x="100" y="190" font-size="16" fill="#37474F">
+    Role   : Schedule Assistant
+  </text>
+  <text x="100" y="220" font-size="16" fill="#37474F">
+    Theme  : Powder Blue × Soft Pink
+  </text>
+  <text x="100" y="250" font-size="16" fill="#37474F">
+    Mode   : Calm / Supportive
+  </text>
+  <text x="100" y="280" font-size="16" fill="#37474F">
+    Motto  : Soft voice, clear structure
+  </text>
+
+  <!-- WAVEFORM (LOW FREQUENCY) -->
+  <path d="
+    M80 330
+    Q140 300 200 330
+    Q260 360 320 330
+    Q380 300 440 330
+    Q500 360 560 330
+    Q620 300 680 330
+    Q740 360 800 330
+    Q860 300 920 330
+    Q980 360 1040 330
+    Q1100 300 1160 330
+  "
+    fill="none"
+    stroke="url(#mioWave)"
+    stroke-width="3"
+    stroke-linecap="round"/>
+</svg>
