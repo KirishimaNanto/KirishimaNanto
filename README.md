@@ -1,106 +1,135 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=260&text=MIKU%20ENGINEER&fontSize=46&fontColor=39C5BB&color=0:0F2027,100:203A43" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=260&text=MIKU%20ENGINEER&fontSize=46&fontColor=39C5BB&color=0:E0F7FA,100:B2EBF2" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=MIKU%20ENGINEER&fontSize=46&fontColor=39C5BB" />
-</picture>
+<!-- ===================================================== -->
+<!-- =============== MIKU CAPSULE HEADER ================= -->
+<!-- ===================================================== -->
 
 <p align="center">
-  <b>二次元 × 工程师</b><br>
-  <sub>Miku aesthetics · Engineered personality · README as interface</sub>
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=39C5BB&height=260&section=header&text=異世界転生したらアスカに飼われてた&fontSize=36&fontColor=E8FFFB&animation=twinkling&fontAlignY=35" />
 </p>
 
----
+<!-- ===================================================== -->
+<!-- =================== PERSONA CARD ==================== -->
+<!-- ===================================================== -->
 
-## 🧬 About
+<pre align="center" style="color:#39C5BB;">
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│   異世界転生したらアスカに飼われてた                     │
+│                                                          │
+│   Role   : Engineer × Otaku                               │
+│   Theme  : Hatsune Miku Teal                              │
+│   Mode   : Auto Light / Dark                              │
+│   Motto  : Cute, but not useless                          │
+│                                                          │
+│   工程师思维 × 二次元审美                                │
+│   偏执于结构、可控性与美感的统一                          │
+│   把 AI 做成「能交流、能干活、有人设」的东西              │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+</pre>
 
-- 工程师思维，二次元审美
-- 偏执于结构、节律与可控性
-- 喜欢把 AI 做成「有性格、但能干活」的系统
-- README 是界面，不是说明书
+<!-- ===================================================== -->
+<!-- ================== MIKU WAVEFORM ==================== -->
+<!-- ========== Repo Personality: Calm × Precise ========= -->
+<!-- ===================================================== -->
 
----
-
-<!-- ================= MIKU IDENTITY SPECTRUM CARD ================= -->
-
-<svg width="100%" viewBox="0 0 960 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="mikuBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="mikuGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#39C5BB"/>
-      <stop offset="100%" stop-color="#66E0D3"/>
-    </linearGradient>
-
-    <linearGradient id="mikuSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0F2027"/>
-      <stop offset="100%" stop-color="#203A43"/>
+      <stop offset="50%" stop-color="#66E0D3"/>
+      <stop offset="100%" stop-color="#39C5BB"/>
     </linearGradient>
   </defs>
-
-  <!-- Card Background -->
-  <rect x="0" y="0" width="960" height="260" rx="28" fill="url(#mikuBg)"/>
-
-  <!-- Big Identity Text -->
-  <text
-    x="480"
-    y="120"
-    text-anchor="middle"
-    fill="#0F2027"
-    font-size="32"
-    font-family="monospace"
-    letter-spacing="2"
-  >
-    異世界転生したらアスカに飼われてた
-  </text>
-
-  <!-- Spectrum Wave -->
-  <path
-    d="
-      M80 180
-      L110 150 L140 195 L170 140
-      L200 205 L230 155 L260 190
-      L290 145 L320 210 L350 160
-      L380 185 L410 150 L440 195
-      L470 140 L500 205 L530 155
-      L560 190 L590 145 L620 210
-      L650 160 L680 185 L710 150
-      L740 195 L770 140 L800 205
-      L830 155 L860 190
-    "
-    fill="none"
-    stroke="url(#mikuSpectrum)"
-    stroke-width="4"
-    stroke-linecap="round"
-  />
+  <path d="
+    M0 60
+    Q60 30 120 60
+    Q180 90 240 60
+    Q300 30 360 60
+    Q420 90 480 60
+    Q540 30 600 60
+    Q660 90 720 60
+    Q780 30 840 60
+    Q900 90 960 60
+    Q1020 30 1080 60
+    Q1140 90 1200 60
+  "
+  fill="none"
+  stroke="url(#mikuGradient)"
+  stroke-width="3"
+  stroke-linecap="round"/>
 </svg>
 
----
+<!-- ===================================================== -->
+<!-- ===================== ASCII ID ====================== -->
+<!-- ===================================================== -->
 
-## 📦 Projects (人格驱动)
+<pre align="center" style="color:#66E0D3;">
+        ██████╗ ██╗██╗  ██╗██╗   ██╗
+       ██╔════╝ ██║██║ ██╔╝██║   ██║
+       ██║  ███╗██║█████╔╝ ██║   ██║
+       ██║   ██║██║██╔═██╗ ██║   ██║
+       ╚██████╔╝██║██║  ██╗╚██████╔╝
+        ╚═════╝ ╚═╝╚═╝  ╚═╝ ╚═════╝
 
-### 🌙 MioSchedule  
-人格波形：**Smooth / Companion / Low Frequency**  
-Anime-style personal schedule assistant  
-角色驱动 · 陪伴感优先
+      Hatsune Miku Signal Detected
+</pre>
 
-### 👓 E.D.I.T.H.  
-人格波形：**Pulse / Analysis / High Frequency**  
-Engineering-grade intelligence system  
-情报密集 · 冷静分析
+<!-- ===================================================== -->
+<!-- ================== FEATURED PROJECT ================= -->
+<!-- ===================================================== -->
 
----
+## 🌙 MioSchedule
 
-## 🧰 Stack
+- 二次元 Galgame 风格行程助手  
+- 虚拟角色驱动交互：月城 澪 (Mio)  
+- AI 自动规划 + 本地逻辑可控  
+- 可爱只是外表，核心是结构  
 
+Repo 人格特性：  
+**波形性格：温和 / 规律 / 低噪声**
 
-Python        ██████████
-AI / LLM      ██████████
-Automation    █████████░
-UI Sense      ████████░░
-System Taste  ███████░░░
+<!-- ===================================================== -->
+<!-- ================== FEATURED PROJECT ================= -->
+<!-- ===================================================== -->
 
-# 📡 Links
+## 👓 E.D.I.T.H.
 
-GitHub: https://github.com/KirishimaNanto
+Engineering-grade intelligence & trend analysis system
 
-<p align="center"> <sub>© Miku Teal System · README is a personality layer</sub> </p> ```
+- 多源信息采集  
+- 自动分析 / 摘要 / 归因  
+- 偏工程而非营销的情报系统  
+
+Repo 人格特性：  
+**波形性格：锐利 / 高频 / 冷静**
+
+<!-- ===================================================== -->
+<!-- ============ REPO WAVE PERSONALITY RULE ============== -->
+<!-- ===================================================== -->
+
+## 🧬 Repo 波形人格生成规则
+
+| 人格类型 | 波形特征 | SVG 修改点 |
+|---------|---------|-----------|
+| 冷静工程 | 平滑正弦 | Q 控制点间距大 |
+| 激进实验 | 高频抖动 | 增加 Q 段数 |
+| 二次元治愈 | 低频缓波 | 减少振幅 |
+| Asuka 型 | 锯齿感 | 手动不对称 |
+
+只需要改 `<path d="">` 中的 Q 参数，就能生成新人格。
+
+<!-- ===================================================== -->
+<!-- ===================== LINKS ========================== -->
+<!-- ===================================================== -->
+
+## 📡 Links
+
+- GitHub: https://github.com/KirishimaNanto  
+- Projects are open-source  
+- Issues welcome, noise less so  
+
+<p align="center">
+  <sub>
+    © Kirishima Nanto · Built with obsession, structure, and teal waves
+  </sub>
+</p>
