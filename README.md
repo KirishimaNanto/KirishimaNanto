@@ -34,13 +34,6 @@
   <img src="./assets/status/sanity.svg" />
 </p>
 
----
-
-## 「あんたバカ？」
-
-<p align="center">
-  <img src="./assets/status/baka-counter.svg" />
-</p>
 
 ---
 
