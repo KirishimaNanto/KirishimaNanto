@@ -21,35 +21,23 @@
         width="1160" height="380"
         fill="url(#asukaBg)"/>
 
-  <!-- TITLE -->
-  <text x="600" y="90"
-        text-anchor="middle"
-        font-size="34"
-        fill="#FFF3E0"
-        font-family="serif">
-    異世界転生したらアスカに飼われてた
-  </text>
+<!-- TITLE -->
+<text x="600" y="100"
+      text-anchor="middle"
+      font-size="50"
+      fill="#FFF3E0"
+      font-family="serif">
+  異世界転生したらアスカに飼われてた
+</text>
 
-  <text x="600" y="125"
-        text-anchor="middle"
-        font-size="16"
-        fill="#FFE0B2">
-    Engineer × Otaku · Persona Core
-  </text>
+<text x="600" y="200"
+      text-anchor="middle"
+      font-size="36"
+      fill="#FFE0B2">
+  Engineer × Otaku · Persona Core
+</text>
 
-  <!-- INFO -->
-  <text x="100" y="190" font-size="16" fill="#FFF3E0">
-    Role   : Engineer × Otaku
-  </text>
-  <text x="100" y="220" font-size="16" fill="#FFF3E0">
-    Theme  : ASUKA Red
-  </text>
-  <text x="100" y="250" font-size="16" fill="#FFF3E0">
-    Mode   : Auto (Light / Dark)
-  </text>
-  <text x="100" y="280" font-size="16" fill="#FFF3E0">
-    Motto  : Aggressive, but precise
-  </text>
+
 
   <!-- WAVEFORM -->
   <path d="
