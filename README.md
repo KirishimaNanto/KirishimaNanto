@@ -53,12 +53,11 @@
 
 <p align="center">
   <sub>
-    提交了未经思考的代码<br/>
+    Scheiße! 提交了未经思考的代码<br/>
     あんたバカ？活着就把事情做好<br/>
   </sub>
 </p>
 
 ---
 
-Danke。  
-下一个提交别让我失望。
+<p align="center"><img src="./assets/footer/danke.svg" /></p>
