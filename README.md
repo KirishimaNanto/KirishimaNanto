@@ -2,7 +2,10 @@
   <img src="./assets/asuka-persona.svg" width="460" />
 </p>
 
-<img src="./assets/status/system-banner.svg" />
+<p align="center">
+  <img src="./assets/status/system-banner.svg" />
+</p>
+
 
 
 <p align="center">
@@ -13,47 +16,31 @@
 
 ---
 
-## 📊 生存面板
+##  生存面板
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KirihimaNanto&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img
+    src="./assets/status/system-banner.svg"
+    alt="system-banner"
+    style="display:block;margin:0 auto;"
+  />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KirihimaNanto&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+
 
 ---
 
-## 🧠 人格说明
+##  人格说明
 
-你好，你已经转生了。  
-原因不明，过程不重要，现在你归 **アスカ** 管。
-
-她不温柔，不讲道理，  
-但你写的烂代码她真的会改，顺便骂你。
+你好，我转生了。  
+原因不明，过程不重要，重要的是现在 **アスカ** 是我的主人❤。
 
 あんたバカ？活着就把事情做好。
 
----
-
-## 🧪 当前世界线项目
-
-### E.D.I.T.H.
-多源信息自动收割  
-分析、摘要、不安慰情绪  
-给工程师用的，不是给老板演戏的  
 
 ---
 
-### MioSchedule
-外表像 Galgame  
-内核是冷静到残忍的逻辑  
-本地运行，不陪聊  
-
----
-
-## 🌐 世界线与人格状态
+##  世界线与人格状态
 
 <p align="center">
   <img src="./assets/status/timeline.svg" />
@@ -81,9 +68,9 @@
 
 <p align="center">
   <sub>
-    Cause: 提交了未经思考的代码<br/>
-    Verdict: あんたバカ？<br/>
-    Action: 世界线重开
+    提交了未经思考的代码<br/>
+    あんたバカ？<br/>
+    世界线重开
   </sub>
 </p>
 
