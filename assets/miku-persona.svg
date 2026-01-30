@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420"
+     viewBox="0 0 1200 420">
+
+  <defs>
+    <!-- MIKU BACKGROUND -->
+    <linearGradient id="mikuBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0FB9B1"/>
+      <stop offset="50%" stop-color="#39C5BB"/>
+      <stop offset="100%" stop-color="#A0EEE1"/>
+    </linearGradient>
+
+    <!-- MIKU WAVE -->
+    <linearGradient id="mikuWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1DE9B6"/>
+      <stop offset="50%" stop-color="#64FFDA"/>
+      <stop offset="100%" stop-color="#1DE9B6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- CARD -->
+  <rect x="20" y="20" rx="26" ry="26"
+        width="1160" height="380"
+        fill="url(#mikuBg)"/>
+
+  <!-- TITLE -->
+  <text x="600" y="90"
+        text-anchor="middle"
+        font-size="34"
+        fill="#E8FFFB"
+        font-family="sans-serif">
+    初音ミク · MIKU SIGNAL
+  </text>
+
+  <text x="600" y="125"
+        text-anchor="middle"
+        font-size="16"
+        fill="#E0F7FA">
+    Vocal Wave · Creative Interface
+  </text>
+
+  <!-- INFO -->
+  <text x="100" y="190" font-size="16" fill="#E8FFFB">
+    Role   : Signal Generator
+  </text>
+  <text x="100" y="220" font-size="16" fill="#E8FFFB">
+    Theme  : Miku Teal
+  </text>
+  <text x="100" y="250" font-size="16" fill="#E8FFFB">
+    Mode   : Rhythmic / Expressive
+  </text>
+  <text x="100" y="280" font-size="16" fill="#E8FFFB">
+    Motto  : Sound becomes structure
+  </text>
+
+  <!-- WAVEFORM (RHYTHMIC) -->
+  <path d="
+    M80 330
+    L120 280
+    L160 330
+    L200 260
+    L240 330
+    L280 290
+    L320 330
+    L360 250
+    L400 330
+    L440 280
+    L480 330
+    L520 260
+    L560 330
+    L600 290
+    L640 330
+    L680 250
+    L720 330
+    L760 280
+    L800 330
+    L840 260
+    L880 330
+    L920 290
+    L960 330
+    L1000 250
+    L1040 330
+    L1080 280
+    L1120 330
+  "
+    fill="none"
+    stroke="url(#mikuWave)"
+    stroke-width="3"
+    stroke-linejoin="round"
+    stroke-linecap="round"/>
+</svg>
