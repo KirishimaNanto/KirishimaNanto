@@ -4,15 +4,24 @@
 
   <defs>
     <linearGradient id="asukaBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7A0000"/>
-      <stop offset="50%" stop-color="#C62828"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
+      <stop offset="0%" stop-color="#6a0000"/>
+      <stop offset="50%" stop-color="#c62828"/>
+      <stop offset="100%" stop-color="#ff6f00"/>
+      <animate attributeName="x1" values="0%;10%;0%" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;5%;0%" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="asukaWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF3D00"/>
-      <stop offset="50%" stop-color="#FF9100"/>
-      <stop offset="100%" stop-color="#FF3D00"/>
+      <stop offset="0%" stop-color="#ff3d00"/>
+      <stop offset="50%" stop-color="#ff9100"/>
+      <stop offset="100%" stop-color="#ff3d00"/>
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        from="0 0"
+        to="300 0"
+        dur="2.4s"
+        repeatCount="indefinite"/>
     </linearGradient>
   </defs>
 
@@ -21,25 +30,50 @@
         width="1160" height="380"
         fill="url(#asukaBg)"/>
 
-<!-- TITLE -->
-<text x="600" y="100"
-      text-anchor="middle"
-      font-size="50"
-      fill="#FFF3E0"
-      font-family="serif">
-  異世界転生したらアスカに飼われてた
-</text>
+  <!-- TITLE breathing -->
+  <text x="600" y="100"
+        text-anchor="middle"
+        font-size="50"
+        fill="#fff3e0"
+        font-family="serif">
+    異世界転生したらアスカに飼われてた
+    <animate
+      attributeName="opacity"
+      values="1;0.75;1"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </text>
 
-<text x="600" y="200"
-      text-anchor="middle"
-      font-size="36"
-      fill="#FFE0B2">
-  Engineer × Otaku · Persona Core
-</text>
+  <!-- SUBTITLE scan flicker -->
+  <text x="600" y="200"
+        text-anchor="middle"
+        font-size="36"
+        fill="#ffe0b2"
+        font-family="serif">
+    Engineer × Otaku · Persona Core
+    <animate
+      attributeName="opacity"
+      values="1;0.4;1"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </text>
 
+  <!-- subtle system line -->
+  <text x="600" y="238"
+        text-anchor="middle"
+        font-size="14"
+        fill="#ffcc80"
+        font-family="JetBrains Mono, monospace"
+        opacity="0.6">
+    SYSTEM STATUS: ASUKA ONLINE
+    <animate
+      attributeName="opacity"
+      values="0.6;0.2;0.6"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+  </text>
 
-
-  <!-- WAVEFORM -->
+  <!-- WAVEFORM heartbeat -->
   <path d="
     M80 330
     L140 290
@@ -64,5 +98,12 @@
     stroke="url(#asukaWave)"
     stroke-width="3"
     stroke-linejoin="round"
-    stroke-linecap="round"/>
+    stroke-linecap="round">
+    <animate
+      attributeName="stroke-width"
+      values="3;5;3"
+      dur="1.2s"
+      repeatCount="indefinite"/>
+  </path>
+
 </svg>
