@@ -20,7 +20,7 @@
 
 <p align="center">
   <img
-    src="./assets/status/system-banner.svg"
+    src="./assets/status/baka-counter.svg"
     alt="system-banner"
     style="display:block;margin:0 auto;"
   />
