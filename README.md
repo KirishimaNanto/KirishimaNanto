@@ -1,83 +1,99 @@
-<h2 align="center">
-  🎧 KirishimaNanto · Digital Miku Core
-</h2>
+<!-- ===================== MIKU WAVE HEADER ===================== -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=240&text=Kirishima%20Nanto&fontSize=48&fontColor=39C5BB&color=0:0F2027,100:203A43&animation=fadeIn"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=240&text=Kirishima%20Nanto&fontSize=48&fontColor=39C5BB&color=0:E0F7FA,100:B2EBF2&animation=fadeIn"
+  />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=240&text=Kirishima%20Nanto&fontSize=48&fontColor=39C5BB&color=0:E0F7FA,100:B2EBF2"
+    alt="header"
+  />
+</picture>
 
 <p align="center">
-  <i>Code is my melody, systems are my harmony.</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=39C5BB&height=2" />
-</p>
-
-<!-- ===== GitHub Stats · Light / Dark Auto Switch ===== -->
-<p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=KirishimaNanto&show_icons=true&rank_icon=github&show=prs_merged,prs_merged_percentage,reviews&theme=default&title_color=39C5BB&icon_color=39C5BB&text_color=2f80ed&bg_color=ffffff"
-      media="(prefers-color-scheme: light)" />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=KirishimaNanto&show_icons=true&rank_icon=github&show=prs_merged,prs_merged_percentage,reviews&theme=tokyonight&title_color=39C5BB&icon_color=39C5BB&text_color=c9d1d9&bg_color=0d1117&ring_color=39C5BB"
-      media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=KirishimaNanto&show_icons=true" />
-  </picture>
-</p>
-
-<!-- ===== Top Languages · Donut · Auto Switch ===== -->
-<p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KirishimaNanto&layout=donut&size_weight=0.5&count_weight=0.5&theme=default&title_color=39C5BB&text_color=2f80ed&bg_color=ffffff"
-      media="(prefers-color-scheme: light)" />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KirishimaNanto&layout=donut&size_weight=0.5&count_weight=0.5&theme=tokyonight&title_color=39C5BB&text_color=c9d1d9&bg_color=0d1117"
-      media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KirishimaNanto" />
-  </picture>
+  <b>二次元 × 工程师</b><br>
+  <sub>Anime aesthetics · Engineering discipline · Teal obsession</sub>
 </p>
 
 ---
 
-## 🎮 Featured Projects
+<!-- ===================== MIKU DIVIDER ===================== -->
+<svg width="100%" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mikuGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39C5BB"/>
+      <stop offset="100%" stop-color="#66E0D3"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M0 40 Q150 10 300 40 T600 40 T900 40 T1200 40"
+    fill="none"
+    stroke="url(#mikuGradient)"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+</svg>
 
-### 🌙 MioSchedule  
-**A 2D-style anime schedule assistant with an interactive virtual character.**
+## 🧬 About Me
 
-- Desktop application built with **Python + PySide6**
-- Galgame-inspired UI and interaction feedback
-- AI-assisted schedule planning and daily task orchestration
-- Virtual character: **月城 澪 (Mio)**
-
-> Focus: Human-centered interaction, visual feedback, and personal productivity.
-
----
-
-### 👓 E.D.I.T.H.  
-**Even Dead, I'm The Hero.**  
-A modular intelligence and trend analysis system.
-
-- Automated information aggregation and signal filtering
-- API-level data collection and protocol analysis
-- Designed for extensibility and long-term automation
-- Emphasis on system structure, not just output
-
-> Focus: Architecture, automation, and information clarity.
-
----
-
-## 🧠 Tech Stack Snapshot
-
-- **Languages**: Python, JavaScript
-- **UI / Desktop**: PySide6, Qt
-- **Backend / Infra**: API integration, automation workflows
-- **Interests**: Human-AI interaction, system design, visualization
+- 工程师思维，二次元审美
+- 偏执于结构、可控性与美感统一
+- 喜欢把 AI 做成「能交流、能干活、有人设」的东西
+- 深夜写代码，白天假装是正常人类
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/KirishimaNanto/KirishimaNanto/output/github-contribution-grid-snake-dark.svg" />
-</p>
+## 🧪 Terminal Identity
 
-<p align="center">
-  <i>Designed in Miku cyan. Tuned for long nights and clean commits.</i>
-</p>
+```text
+┌──────────────────────────────────────────────┐
+│  Kirishima Nanto                             │
+│  ──────────────────────────────────────────  │
+│  異世界転生したらアスカに飼われてた           │
+│                                              │
+│  Role   : Engineer × Otaku                   │
+│  Theme  : Miku Teal (#39C5BB)                │
+│  Mode   : Auto (Light / Dark)                │
+│  Motto  : Cute, but not useless              │
+└──────────────────────────────────────────────┘
+<!-- ===================== MIKU DIVIDER ===================== --> <svg width="100%" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg"> <path d="M0 40 Q150 15 300 40 T600 40 T900 40 T1200 40" fill="none" stroke="#39C5BB" stroke-width="3" stroke-linecap="round" /> </svg>
+📦 Featured Projects
+🌙 MioSchedule
+Anime-style personal schedule assistant
+
+虚拟角色驱动交互：月城 澪 (Mio)
+
+AI 行程规划
+
+本地运行，逻辑透明
+
+Galgame UI 取向，但目标是实用
+
+👓 E.D.I.T.H.
+Engineering-grade intelligence & trend analysis system
+
+多源信息采集
+
+自动分析 / 摘要
+
+偏工程而非营销的情报系统设计
+
+🧰 Tech Stack
+Python        ██████████
+AI / LLM      ██████████
+Automation    █████████░
+UI Design     ████████░░
+System Sense  ███████░░░
+<!-- ===================== MIKU DIVIDER ===================== --> <svg width="100%" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg"> <path d="M0 40 Q200 5 400 40 T800 40 T1200 40" fill="none" stroke="#66E0D3" stroke-width="2" stroke-linecap="round" /> </svg>
+📡 Links
+GitHub: https://github.com/KirishimaNanto
+
+Projects are open-source
+
+Issues welcome, noise less so
+
+<p align="center"> <sub>© Kirishima Nanto · Built with obsession, structure, and teal waves</sub> </p> ```
