@@ -19,8 +19,7 @@
 
 ##  介绍
 
-你好，我转生了。  
-原因不明，过程不重要，重要的是现在 **アスカ** 是我的主人❤。
+<p align="center"><img src="./assets/intro/reborn_error.svg" /></p>
 
 
 ---
