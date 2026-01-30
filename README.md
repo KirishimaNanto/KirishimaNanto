@@ -14,23 +14,10 @@
   <img src="https://img.shields.io/badge/Attitude-极差-black?style=for-the-badge" />
 </p>
 
----
-
-##  生存面板
-
-<p align="center">
-  <img
-    src="./assets/status/baka-counter.svg"
-    alt="system-banner"
-    style="display:block;margin:0 auto;"
-  />
-</p>
-
-
 
 ---
 
-##  人格说明
+##  介绍
 
 你好，我转生了。  
 原因不明，过程不重要，重要的是现在 **アスカ** 是我的主人❤。
@@ -38,7 +25,7 @@
 
 ---
 
-##  世界线与人格状态
+##  人格状态
 
 <p align="center">
   <img src="./assets/status/timeline.svg" />
