@@ -1,0 +1,46 @@
+name: Persona Sync
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read persona.json
+        id: persona
+        run: |
+          PERSONA=$(jq -r '.persona' persona.json)
+          echo "persona=$PERSONA" >> $GITHUB_OUTPUT
+
+      - name: Generate persona status
+        run: |
+          COMMITS=$(git rev-list --count HEAD)
+          ENERGY=$((COMMITS % 10 + 1))
+
+          BAR=$(printf '█%.0s' $(seq 1 $ENERGY))
+          BAR="$BAR$(printf '░%.0s' $(seq 1 $((10-ENERGY))))"
+
+          STATUS="\
+\`\`\`
+Persona        : ${{ steps.persona.outputs.persona }}
+Mental State   : Active
+Signal Energy  : $BAR
+Commits        : $COMMITS
+Last Sync      : $(date -u)
+\`\`\`"
+
+          perl -0777 -i -pe "s/<!-- PERSONA_STATUS_START -->.*<!-- PERSONA_STATUS_END -->/<!-- PERSONA_STATUS_START -->\n$STATUS\n<!-- PERSONA_STATUS_END -->/s" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name \"persona-bot\"
+          git config user.email \"persona@system\"
+          git commit -am \"sync: persona status\" || exit 0
+          git push
