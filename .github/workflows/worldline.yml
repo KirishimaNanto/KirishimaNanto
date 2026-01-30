@@ -1,0 +1,33 @@
+name: Worldline Auto Update
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update worldline status
+        run: python scripts/update_worldline.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "ASUKA"
+          git config user.email "asuka@worldline.system"
+          git add assets/status/*.svg
+          git commit -m "worldline: forced reboot" || echo "No changes"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
